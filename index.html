@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div id="info" class="info">
+            <h3> Info</h3>
+            <p>This game page is designed by SAKIB. Thank you for visiting!</p>
+            <button id="devInfo-okBtn" type="button">OK</button>
+        </div>
+        <div id="i-btn" class="i-btn">i</div>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <div id="grid" class="grid">
+            <div class="row">
+                <div onclick="handleClick(this)" id="0" class="col"></div>
+                <div onclick="handleClick(this)" id="1" class="col"></div>
+                <div onclick="handleClick(this)" id="2" class="col"></div>
+            </div>
+            <div class="row">
+                <div onclick="handleClick(this)" id="3" class="col"></div>
+                <div onclick="handleClick(this)" id="4" class="col"></div>
+                <div onclick="handleClick(this)" id="5" class="col"></div>
+            </div>
+            <div class="row">
+                <div onclick="handleClick(this)" id="6" class="col"></div>
+                <div onclick="handleClick(this)" id="7" class="col"></div>
+                <div onclick="handleClick(this)" id="8" class="col"></div>
+            </div>
+        </div>
+        <div id="player" class="player">PLAYER 'X' TURN</div>
+        <button id="reset-btn">Reset</button>
+    </div>
+    <div id="winner-msg" class="winner-msg">
+        
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
